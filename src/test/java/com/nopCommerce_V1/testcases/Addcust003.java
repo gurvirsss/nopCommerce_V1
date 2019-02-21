@@ -45,6 +45,8 @@ public class Addcust003 extends BaseClass {
 		//Add the customer to 'Guests' or 'Registered' customer role
 		addcust.setCustomerRoles("Guest");
 		
+		Thread.sleep(5000);
+		
 		addcust.setManagerOfVendor("Vendor 2");
 		
 		addcust.setGender("Male");
@@ -58,6 +60,8 @@ public class Addcust003 extends BaseClass {
 		addcust.setAdminContent("This is for testing.........");
 	
 		addcust.clickOnSave();
+		
+		Thread.sleep(5000);
 		
 		logger.info("validation started....");
 				

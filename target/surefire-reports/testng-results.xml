@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-02-21T16:02:43Z" name="nopCommerce_V1" finished-at="2019-02-21T16:03:23Z" duration-ms="39967">
+  <suite started-at="2019-02-21T16:12:21Z" name="nopCommerce_V1" finished-at="2019-02-21T16:13:25Z" duration-ms="63381">
     <groups>
     </groups>
-    <test started-at="2019-02-21T16:02:43Z" name="nopCommerce_V1 Test1" finished-at="2019-02-21T16:03:23Z" duration-ms="39967">
+    <test started-at="2019-02-21T16:12:21Z" name="nopCommerce_V1 Test1" finished-at="2019-02-21T16:13:25Z" duration-ms="63381">
       <class name="com.nopCommerce_V1.testcases.Addcust003">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nopCommerce_V1.testcases.Addcust003@158da8e]" started-at="2019-02-21T16:03:12Z" name="setup" finished-at="2019-02-21T16:03:15Z" duration-ms="3279" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nopCommerce_V1.testcases.Addcust003@74e52303]" started-at="2019-02-21T16:12:42Z" name="setup" finished-at="2019-02-21T16:12:45Z" duration-ms="2887" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,86 +18,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="addNewCustomer()[pri:0, instance:com.nopCommerce_V1.testcases.Addcust003@158da8e]" started-at="2019-02-21T16:03:15Z" name="addNewCustomer" finished-at="2019-02-21T16:03:22Z" duration-ms="7031" status="FAIL">
-          <exception class="org.openqa.selenium.ElementNotVisibleException">
-            <message>
-              <![CDATA[element not interactable
-  (Session info: chrome=72.0.3626.109)
-  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'PUNEET-DELL', ip: '192.168.0.18', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\Users\Puneet\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62841}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}
-Session ID: 755a38c2e98999d9d3bc95d03a7cd4bf]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotVisibleException: element not interactable
-  (Session info: chrome=72.0.3626.109)
-  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'PUNEET-DELL', ip: '192.168.0.18', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\Users\Puneet\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62841}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}
-Session ID: 755a38c2e98999d9d3bc95d03a7cd4bf
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-at com.nopCommerce_V1.pageobjects.AddCust.clickOnCustomersMenu(AddCust.java:54)
-at com.nopCommerce_V1.testcases.Addcust003.addNewCustomer(Addcust003.java:33)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotVisibleException -->
+        <test-method signature="addNewCustomer()[pri:0, instance:com.nopCommerce_V1.testcases.Addcust003@74e52303]" started-at="2019-02-21T16:12:45Z" name="addNewCustomer" finished-at="2019-02-21T16:13:24Z" duration-ms="38488" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewCustomer -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopCommerce_V1.testcases.Addcust003@158da8e]" started-at="2019-02-21T16:03:22Z" name="tearDown" finished-at="2019-02-21T16:03:23Z" duration-ms="760" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopCommerce_V1.testcases.Addcust003@74e52303]" started-at="2019-02-21T16:13:24Z" name="tearDown" finished-at="2019-02-21T16:13:25Z" duration-ms="989" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.nopCommerce_V1.testcases.Addcust003 -->
       <class name="com.nopCommerce_V1.testcases.LoginTest001">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nopCommerce_V1.testcases.LoginTest001@6aba2b86]" started-at="2019-02-21T16:02:44Z" name="setup" finished-at="2019-02-21T16:02:56Z" duration-ms="12217" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nopCommerce_V1.testcases.LoginTest001@158da8e]" started-at="2019-02-21T16:12:22Z" name="setup" finished-at="2019-02-21T16:12:27Z" duration-ms="4906" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -108,11 +39,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LoginTest()[pri:0, instance:com.nopCommerce_V1.testcases.LoginTest001@6aba2b86]" started-at="2019-02-21T16:02:56Z" name="LoginTest" finished-at="2019-02-21T16:03:11Z" duration-ms="14960" status="PASS">
+        <test-method signature="LoginTest()[pri:0, instance:com.nopCommerce_V1.testcases.LoginTest001@158da8e]" started-at="2019-02-21T16:12:27Z" name="LoginTest" finished-at="2019-02-21T16:12:41Z" duration-ms="14753" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopCommerce_V1.testcases.LoginTest001@6aba2b86]" started-at="2019-02-21T16:03:11Z" name="tearDown" finished-at="2019-02-21T16:03:12Z" duration-ms="824" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopCommerce_V1.testcases.LoginTest001@158da8e]" started-at="2019-02-21T16:12:41Z" name="tearDown" finished-at="2019-02-21T16:12:42Z" duration-ms="883" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
